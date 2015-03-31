@@ -1,0 +1,5 @@
+{
+	"description": "Javascript code style guide rules applied in ottofeller.com",
+	"main"       : "index.js",
+	"name"       : "eslint-plugin-ottofeller"
+}
