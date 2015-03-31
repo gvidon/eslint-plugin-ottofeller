@@ -1,5 +1,12 @@
 {
 	"description": "Javascript code style guide rules applied in ottofeller.com",
 	"main"       : "index.js",
-	"name"       : "eslint-plugin-ottofeller"
+	"name"       : "eslint-plugin-ottofeller",
+	
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/gvidon/eslint-plugin-ottofeller"
+  },
+  
+	"version": "0.1.1"
 }
