@@ -40,8 +40,5 @@ module.exports = {
 				}
 			}
 		}
-	},
-	
-	// if( ! <expression>) ...
-	'add-spaces-around-single-negation': function(context) {}
+	}
 };
