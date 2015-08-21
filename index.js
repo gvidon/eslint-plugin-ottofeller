@@ -1,5 +1,8 @@
 'use strict';
 
+var
+	_ = require('underscore');
+
 module.exports = {
 	rules: {
 		'newline-around-multiline-blocks': function(context) {
