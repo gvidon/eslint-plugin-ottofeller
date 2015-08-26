@@ -51,7 +51,7 @@ module.exports = {
 				'Program': function(node) {
 					var
 						src = context.getSource(),
-						re = new RegExp('var[^\n]+$', 'mg'),
+						re = new RegExp('^var[^\n]+$', 'mg'),
 						match,
 						lines;
 					
