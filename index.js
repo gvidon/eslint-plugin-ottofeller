@@ -9,7 +9,8 @@ module.exports = {
 			return _.object(_.map([
 				'ArrayExpression',
 				'BlockStatement',
-				'ObjectExpression'
+				'ObjectExpression',
+				'Program'
 			], function(R) { return [R, function(node) {
 				if(node.loc.start.line === node.loc.end.line)
 					return;
