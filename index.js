@@ -1,8 +1,5 @@
 'use strict';
 
-var
-	_ = require('underscore');
-
 module.exports = {
 	rules: {
 		'newline-around-multiline-blocks': require("./lib/rules/newline-around-multiline-blocks"),
